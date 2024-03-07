@@ -7,12 +7,12 @@ This Work Day Scheduler is a simple calendar app for scheduling your 9-5 work da
 ## Installation
 
 Web browser with local storage is required to use this application. The application can be accessed at:
-
+https://jinkc21.github.io/work-day-scheduler/
 
 ## Usage
 
 ![alt text](assets/images/main.png)
-The current day is displayed at the top of the calendar. Timeblocks are displayed for standard business hours and are color coded to indicate whether it is in the past, present, or future. When a timeblock is selected, events can be inputted into the text area. The event is then saved using the save button. When the page is reloaded, the events are saved unless the schedule is cleared using the "clear schedule" button or the local storage is reset.
+The current day is displayed at the top of the calendar. Timeblocks are displayed for standard business hours and are color coded to indicate whether it is in the past, present, or future. When a timeblock is selected, events can be inputted into the text area. The event is then saved using the save button. When the page is reloaded, the events will still be displayed unless the schedule is cleared using the "clear schedule" button or the local storage is reset.
 
 Here is an example of how the app can be utiliized:
 ![alt text](assets/images/work-day-example.png)
