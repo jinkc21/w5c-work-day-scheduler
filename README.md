@@ -1,98 +1,54 @@
-# w5c-work-day-scheduler
+# Work Day Scheduler - 9-5 Edition
 
-# 05 Third-Party APIs: Work Day Scheduler
+## Description
 
-## Your Task
+This Work Day Scheduler is a simple calendar app for scheduling your 9-5 work day. It allows a user to save events for each hour of a typical working day (9am-5pm). Employees with busy schedules can add important events to a daily planner so they can manage their time effectively. 
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Installation
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+Web browser with local storage is required to use this application. The application can be accessed at:
 
-## User Story
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+## Usage
 
-## Acceptance Criteria
+![alt text](assets/images/main.png)
+The current day is displayed at the top of the calendar. Timeblocks are displayed for standard business hours and are color coded to indicate whether it is in the past, present, or future. When a timeblock is selected, events can be inputted into the text area. The event is then saved using the save button. When the page is reloaded, the events are saved unless the schedule is cleared using the "clear schedule" button or the local storage is reset.
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+Here is an example of how the app can be utiliized:
+![alt text](assets/images/work-day-example.png)
 
-The following animation demonstrates the application functionality:
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+## Credits
 
-## Grading Requirements
+Day.js was used to work with the date and time:
+https://day.js.org/en/
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+MDN Web Docs provided material for local storage components as well as using "this":
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+https://developer.mozilla.org/en-US/docs/Web/API/Storage/clear
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
 
-This Challenge is graded based on the following criteria:
+## License
 
-### Technical Acceptance Criteria: 40%
+MIT License
 
-* Satisfies all of the above acceptance criteria plus the following:
+Copyright (c) 2024 jinkc21
 
-  * Uses a date utility library to work with date and time
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### Deployment: 32%
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+---
