@@ -19,13 +19,16 @@
   <h1 class="display-3">Work Day Scheduler</h1>
   <p class="lead">A simple calendar app for scheduling your 9-5 work day</p>
   <p id="currentDay" class="lead"></p>
+  <!-- added clear schedule button -->
   <button id="clearScheduleBtn" type="button">Clear Schedule</button>
 </header>
 <div class="container-lg px-5">
 
   <body>
+    <!-- added legend -->
     <legend id="legend"><span class="past">Past</span> <span class="present">Present</span> <span
         class="future">Future</span></legend>
+    <!-- removed past present and future classes from time blocks and added remaining time blocks -->
     <div id="hour-9" class="row time-block ">
       <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
       <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
